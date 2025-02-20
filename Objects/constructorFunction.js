@@ -10,6 +10,6 @@ function Person(name, age, profession) {
   const person1 = new Person("Alice", 25, "Software Developer");
   const person2 = new Person("Bob", 30, "Civil Engineer");
   
-  console.log(person1.greet());  // Output: Hello, my name is Alice
-  console.log(person2.greet());  // Output: Hello, my name is Bob
+  console.log(person1.greet());  
+  console.log(person2.greet()); 
   
