@@ -17,8 +17,12 @@ const student = {
 
 }
 
+//adding new property keyvalye pair
+
 student.hobby = "Gaming";
 
+
+//modify existing keyvalue
 student.age = 23;
 
 
