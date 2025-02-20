@@ -1,19 +1,25 @@
-const student = {
-    firstName: "Randip",
-    lastName: "Sharma",
-    age: 30,
+//object with owner name and balance with get balance with getter and setter 
 
-    get fullName() {
-      return `${this.firstName} ${this.lastName}`;
+const account = {
+    owner: "John",
+    balance: 1000,
+    
+    get balance() {
+      return `Balance: $${this.balance}`;
     },
-    set fullName(name) {
-      const parts = name.split(" ");
-      this.firstName = parts[0];
-      this.lastName = parts[1];
+  
+    set balance(amount) {
+      if (amount < 0) {
+        console.log("Invalid balance!");
+      } else {
+        this.balance = amount;
+      }
     }
   };
   
-  console.log(student.fullName);  
-  student.fullName = "Rahul Shah";
-  console.log(student.fullName);  
+  console.log(account.balance); 
+  account.balance = 500;
+  console.log(account.balance); 
+  account.balance = -200; 
   
+
