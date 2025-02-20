@@ -6,7 +6,7 @@ const car = {
     model: "Corolla",
     year: 2020,
     getCarInfo: function () {
-      return `${this.brand} ${this.model} (${this.year})`;
+      return ` CarBrad is ${this.brand} and its model is ${this.model} and it is model of (${this.year})`;
     }
   };
   
