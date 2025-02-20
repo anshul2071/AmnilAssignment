@@ -6,7 +6,7 @@ function Person(name, age, hobby) {
   
   // Adding method to prototype
   Person.prototype.greet = function () {
-    return `Hello, my name is ${this.name} and my hobby is ${this.hobby}`;
+    return `Hello, my name is ${this.name} I am ${this.age} years old and my hobby is ${this.hobby}`;
   };
   
   const person1 = new Person("Ram", 25, "Football");
