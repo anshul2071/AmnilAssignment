@@ -5,13 +5,13 @@ function Person(name, age, hobby) {
   }
   
   // Adding method to prototype
-  Person.prototype.greet = function () {
+  Person.prototype.introduction = function () {
     return `Hello, my name is ${this.name} I am ${this.age} years old and my hobby is ${this.hobby}`;
   };
   
   const person1 = new Person("Ram", 25, "Football");
   const person2 = new Person("Monika", 30, "Dancing");
   
-  console.log(person1.greet()); 
-  console.log(person2.greet()); 
+  console.log(person1.introduction()); 
+  console.log(person2.introduction()); 
   
