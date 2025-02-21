@@ -1,6 +1,3 @@
-
-
-
 const student = {
     name: "Anshul",
     age: 20,
@@ -16,14 +13,9 @@ const student = {
     }
 };
 
-
-
-
-
 const deepCopyStudent = JSON.parse(JSON.stringify(student));
 
 deepCopyStudent.subjects.Math = 100;
 
-
-console.log(`OriginalStudent: ${student}`);
-console.log(`DeepcopyStudent: ${deepCopyStudent}`);
+console.log(`Original Student: ${JSON.stringify(student, null, 2)}`);
+console.log(`Deep Copy Student: ${JSON.stringify(deepCopyStudent, null, 2)}`);
