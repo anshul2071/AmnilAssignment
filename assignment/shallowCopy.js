@@ -24,3 +24,7 @@ const shallowCopy = Object.assign({}, student);
 console.log("Original Student:", student);
 console.log("Shallow Copy (Spread):", shallowCopyStudent);
 console.log("Shallow Copy (Object.assign):", shallowCopy);
+//using template literals
+console.log(`Original Student: ${JSON.stringify(student, null, 2)}`);
+console.log(`Shallow Copy (Spread): ${JSON.stringify(shallowCopyStudent, null, 2)}`);
+console.log(`Shallow Copy (Object.assign): ${JSON.stringify(shallowCopy, null, 2)}`);
