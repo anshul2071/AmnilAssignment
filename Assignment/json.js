@@ -66,7 +66,7 @@ transactions.forEach((tx) => {
 //.map provides a new array where all of the currency is converted to USD
 
 let convertedTransaction = transactions.map((tx) => {
-    let conversionRate = tx.currency === "NPR"? 1.42 : tx.currency === "EUR"? 1.1:1 ;
+    let conversionRate = tx.currency === "CAD"? 1.42 : tx.currency === "EUR"? 1.1:1 ;
     return{...tx, amount: tx.amount*conversionRate, currency: "USD"};
     
 
