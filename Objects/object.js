@@ -24,5 +24,8 @@ student.age = 23;
 
 console.log(student);
 
-console.log(`FullName: ${student.fullName()}, Age: ${student.age}`)
+console.log(`FullName: ${student.fullName()}, 
+Age: ${student.age}`)
+
+
 
