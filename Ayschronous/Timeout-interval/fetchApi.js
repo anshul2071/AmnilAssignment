@@ -2,7 +2,7 @@ const resultmsg = document.querySelector("#result");
 const btn = document.querySelector("#btn");
 const URL = "https://jsonplaceholder.typicode.com/posts";
 
-// Ensure the screen starts blank
+
 resultmsg.textContent = ""; 
 let dots = 0
 export async function fetchApi() {

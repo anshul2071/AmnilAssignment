@@ -2,7 +2,7 @@
 //Promise.race() returns the first promise that settles (either fulfilled or rejected). It does not wait for other promises to complete.
 
 
-
+//checks which request response is fastest and show the promise that settles first
 
 
 export async function fetchFastest() {

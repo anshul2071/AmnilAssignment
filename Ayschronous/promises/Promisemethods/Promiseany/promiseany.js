@@ -2,7 +2,7 @@
 //Promise.any() waits for the first successful (fulfilled) promise and ignores rejections unless all fail.
 
 
-async function fetchFirstSuccessful() {
+export async function fetchFirstSuccessful() {
     try {
       const response = await Promise.any([
         fetch("https://invalid-url").then(res => res.json()), 
@@ -15,12 +15,12 @@ async function fetchFirstSuccessful() {
     }
   }
   
-  fetchFirstSuccessful();
+
   
 
 
 
-  async function fetchFirstSuccessful() {
+ export async function fetchFirstSuccess() {
     try {
       const response = await Promise.any([
         fetch("https://invalid-url")
@@ -35,5 +35,5 @@ async function fetchFirstSuccessful() {
     }
   }
   
-  fetchFirstSuccessful();
+ 
   
