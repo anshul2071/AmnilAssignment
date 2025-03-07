@@ -1,4 +1,4 @@
-# JavaScript Asynchronous Methods
+## JavaScript Asynchronous Methods
 
 ## Overview
 This document covers various asynchronous techniques in JavaScript, including:
