@@ -1,0 +1,27 @@
+[submodule "Auth_React"]
+	path = Auth_React
+	url = https://github.com/anshul2071/Auth_React.git
+[submodule "AuthIn"]
+	path = AuthIn
+	url = https://github.com/anshul2071/AuthIn.git
+[submodule "Job-Finder"]
+	path = Job-Finder
+	url = https://github.com/anshul2071/Job-Finder.git
+[submodule "ReactTypeS"]
+	path = ReactTypeS
+	url = https://github.com/anshul2071/React.git
+[submodule "PasswordGenerator"]
+	path = PasswordGenerator
+	url = https://github.com/anshul2071/Passwordnator.git
+[submodule "CurrencyConvertor"]
+	path = CurrencyConvertor
+	url = https://github.com/anshul2071/xChangeRate.git
+[submodule "Function"]
+	path = Function
+	url = https://github.com/anshul2071/Function.git
+[submodule "Recursion"]
+	path = Recursion
+	url = https://github.com/anshul2071/Recursion.git
+[submodule "ControlFlow"]
+	path = ControlFlow
+	url = https://github.com/anshul2071/ControlFlow.git
